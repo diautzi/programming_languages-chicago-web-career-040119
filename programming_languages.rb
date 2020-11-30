@@ -51,7 +51,7 @@ def reformat_languages(languages)
             :style => [language_details]
           }
         # end
-      end
+      # end
     end
   end
   new_hash
