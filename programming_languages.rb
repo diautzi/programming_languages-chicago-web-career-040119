@@ -36,7 +36,7 @@ def reformat_languages(languages)
   # your code here
   new_hash = {}
   languages.each do |language_details, language|
-    binding.pry
+    # binding.pry
     language.each do |language, attributes|
       attributes.each do |attribute, attribute_value|
         if language == :javascript
