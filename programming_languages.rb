@@ -31,7 +31,6 @@ hash = {
   }
 }
 
-
 def reformat_languages(languages)
   language_attributes = {}
 
