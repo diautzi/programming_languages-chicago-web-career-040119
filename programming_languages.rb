@@ -42,7 +42,7 @@ def reformat_languages(languages)
         # binding.pry
         if language == :javascript
           new_hash[language] = {
-            :type => attribute_value,
+            :type => attributes,
             :style => [:oo, :functional]
           }
         else
