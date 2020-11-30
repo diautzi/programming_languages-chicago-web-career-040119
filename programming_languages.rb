@@ -50,7 +50,7 @@ def reformat_languages(languages)
             :type => attribute_value,
             :style => [language_details]
           }
-        end
+        # end
       end
     end
   end
